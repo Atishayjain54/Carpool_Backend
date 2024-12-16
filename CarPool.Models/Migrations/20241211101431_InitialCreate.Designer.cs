@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarPool.Models.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230726113545_initi")]
-    partial class initi
+    [Migration("20241211101431_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
